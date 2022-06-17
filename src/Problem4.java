@@ -5,7 +5,6 @@ public class Problem4 {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter integer n: ");
         int n = scan.nextInt();
-        int n1 = Math.abs(n);
         int sum = 0;
         for(int i = Math.abs(n); i != 0; i/= 10)
         {
