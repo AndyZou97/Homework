@@ -7,9 +7,9 @@ public class Problem4 {
         int n = scan.nextInt();
         int n1 = Math.abs(n);
         int sum = 0;
-        while(n1 != 0){
-            sum += n1%10;
-            n1 /= 10;
+        for(int i = Math.abs(n); i != 0; i/= 10)
+        {
+            sum += i%10;
         }
         System.out.println("The sum of all digits of " + n + " is: " + sum);
     }
