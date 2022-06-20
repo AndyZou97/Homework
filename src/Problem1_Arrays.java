@@ -17,16 +17,14 @@ public class Problem1_Arrays {
             arr[i] = scan.nextInt();
             arrString += arr[i] + " ";
         }
-        System.out.println();
-        System.out.println("You entered: " + arrString);
-        System.out.println();
+        System.out.println("\n" + "You entered: " + arrString + "\n");
         System.out.println("Maximum value: " + max(arr));
         System.out.println("Minimum value: " + min(arr));
-        System.out.println("Average: " + avg(arr));
-        System.out.println();
+        System.out.println("Average: " + avg(arr) + "\n");
         GreaterThanA(arr);
         System.out.println();
         GreaterThanL(arr);
+        System.out.println();
         Reverse(arr);
 
     }
@@ -82,7 +80,6 @@ public class Problem1_Arrays {
                 System.out.print(Array[i] + " ");
             }
         }
-        System.out.println();
     }
     public static void Reverse(int[] Array){
         System.out.println("Array in reverse order: ");
